@@ -1,10 +1,18 @@
 ---
-title: Saturn 9944
-description: About the team
+title: "Saturn 9944"
+description: "About the team"
+url: "/about/"
+summary: "About the team"
+cover:
+  image: "/images/SATURN-Logo-Dark-Transparent.png"
+  hidden: false
 ---
 
-!!! info Rebuilding
-    The old website died and we are in the process of rebuilding
+{{< notice info Rebuilding >}}
+**Rebuilding**
+
+The old website died and we are in the process of rebuilding
+{{< /notice >}}
 
 SATURN Robotics is a **FIRST Tech Challenge** robotics club operating out of
 Mandarin High School in Jacksonville, Florida.  Started in 2016, our team has

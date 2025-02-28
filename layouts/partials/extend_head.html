@@ -1,0 +1,20 @@
+<!-- Umami Analytics -->
+{{- if and (or .Site.Params.analytics.umami.id
+.Site.Params.analytics.umami.devId) .Site.Params.analytics.umami.server }}
+<script
+  defer
+  src="{{ .Site.Params.analytics.umami.server}}"
+  {{-
+  if
+  hugo.IsProduction
+  }}
+  data-website-id="{{ .Site.Params.analytics.umami.id }}"
+  {{-
+  else
+  }}
+  data-website-id="{{ .Site.Params.analytics.umami.devId }}"
+  {{-
+  end
+  }}
+></script>
+{{- end }}

@@ -1,0 +1,79 @@
+baseURL      = 'https://saturn9944.com/'
+languageCode = 'en-us'
+title        = 'Saturn 9944'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[module]
+  [[module.imports]]
+    path = 'github.com/adityatelange/hugo-PaperMod'
+  [[module.imports]]
+    path = 'github.com/martignoni/hugo-notice'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[params]
+  title        = "Saturn 9944"
+  description  = "Saturn 9944's website"
+  defaultTheme = "dark"
+
+  DisableThemeToggle             = true
+  ShowToC                        = true
+  ShowShareButtons               = false
+  ShowReadingTime                = false
+  ShowBreadCrumbs                = true
+  ShowWordCount                  = false
+  ShowRssButtonInSectionTermList = false
+
+  mainSections = ["docs"]
+
+  custom_js = [
+    "js/lightbox.js"
+  ]
+
+  [params.assets]
+    favicon = "/favicon.ico"
+
+  [params.analytics.umami]
+  server = "https://umami.leechpepin.com/script.js"
+  devId = "561f71cd-2936-4d55-aa7d-e514310d929d"
+
+  [params.profileMode]
+    enabled = true
+    title = "Saturn 9944"
+    subtitle = "FTC NEFL League"
+    imageUrl = "/images/SATURN-Logo-Dark-Transparent.png"
+    imageHeight = 450
+    imageWidth  = 900
+  [[params.socialIcons]]
+      name = "Github"
+      url   = "https://github.com/ftc-saturn9944/"
+
+[menu]
+  [[menu.main]]
+    name       = "About the Team"
+    identifier = "about"
+    url        = "/about"
+    weight     = 1
+  [[menu.main]]
+    name       = "Gallery"
+    identifier = "gallery"
+    url        = "/gallery/"
+    weight     = 10
+  [[menu.main]]
+    name       = "Sponsors"
+    identifier = "sponsors"
+    url        = "/sponsors/"
+    weight     = 20
+  [[menu.main]]
+    name       = "Sponsor Packages"
+    identifier = "packages"
+    url        = "/packages/"
+    weight     = 30
+  [[menu.main]]
+    name       = "Contact"
+    identifier = "contact"
+    url        = "/contact/"
+    weight     = 40
