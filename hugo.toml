@@ -1,4 +1,4 @@
-baseURL      = 'https://saturn9944.com/'
+baseURL      = 'https://saturn9944.com/website/'
 languageCode = 'en-us'
 title        = 'Saturn 9944'
 
@@ -38,7 +38,8 @@ title        = 'Saturn 9944'
 
   [params.analytics.umami]
   server = "https://umami.leechpepin.com/script.js"
-  devId = "561f71cd-2936-4d55-aa7d-e514310d929d"
+  devId  = "561f71cd-2936-4d55-aa7d-e514310d929d"
+  id     = "c125f3f5-86c7-4442-9aea-f21990406791"
 
   [params.profileMode]
     enabled = true
