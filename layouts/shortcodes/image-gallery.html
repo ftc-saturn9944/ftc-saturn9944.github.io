@@ -7,6 +7,7 @@
 </style>
 
 {{ $dir := string (.Get "gallery_dir") }}
+{{ $title := (or (.Get "show_title") "false") }}
 <ul class="image-gallery">
 {{ if fileExists (printf "assets/%s" $dir)}}
 {{ range readDir (printf "assets/%s" $dir) }}
@@ -18,7 +19,9 @@
     <li>
       <a href="{{ (.Fit "1600x1600").Permalink }}" title="{{ $imagetitle }}" class="lightbox-image">
         <img src="{{ (.Resize "x300").Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
+        {{- if (eq $title "true") }}
         <span>{{ $imagetitle }}</span>
+        {{- end }}
       </a>
     </li>
   {{- end -}}
