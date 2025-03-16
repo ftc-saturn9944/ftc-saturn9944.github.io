@@ -11,37 +11,37 @@ competition season and any logos will be displayed for at least one full season.
 
 ## Enceladus — $250 to $499
 - Your name and logo on our [Website](sponsors.md#enceladus).
-- Your Logo on the Engineering DoPortfolio we submit for judging at the end
+- Your Logo on the Portfolio we submit for judging at the end
   of the season
 
 ## Saturn —  $500 to $999
 - Your name and logo on our [Website](sponsors.md#saturn)
-- Your Logo on the Engineering DoPortfolio we submit for judging at the end
+- Your Logo on the Portfolio we submit for judging at the end
   of the season
 - Your Logo on the pamphlets we provide to other teams about our robot during
   competitions
 
 ## Sun —  $1,000 to $1,499
 - Your name and logo on our [Website](sponsors.md#sun)
-- Your Logo on the Engineering DoPortfolio we submit for judging at the end
+- Your Logo on the Portfolio we submit for judging at the end
   of the season
 - Your Logo on the pamphlets we provide to other teams about our robot during
   competitions
-- Your Logo on our cart aor parts storage that we bring to competitions
+- Your Logo on our cart and/or parts storage that we bring to competitions
   
 ## Alpha Centauri —  $1500+
 - Your name and logo on our [Website](sponsors.md#alpha-centauri)
-- Your Logo on the Engineering DoPortfolio we submit for judging at the end
+- Your Logo on the Portfolio we submit for judging at the end
   of the season
 - Your Logo on the pamphlets we provide to other teams about our robot during
   competitions
-- Your Logo on our cart aor parts storage that we bring to competitions
+- Your Logo on our cart and/or parts storage that we bring to competitions
 - Your Logo on our Uniforms.  Currently these are T-Shirts with our team logo on
   the front and the Team name and sponsors on the back.
   
 {{< notice note >}}
 **T-Shirt printing**
-We only print out our shirts once a year, usually in OctobNovember.  Any
+We only print out our shirts once a year, usually in October-November.  Any
 sponsorships provided after this will only appear on the next printing.
 {{< /notice >}}
 
