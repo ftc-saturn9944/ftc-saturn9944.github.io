@@ -1,0 +1,5 @@
+<!-- Custom JS code-->
+{{ range $customJS := .Site.Params.custom_js }} {{ $built := resources.Get
+$customJS | js.Build }}
+<script type="text/javascript" src="{{ $built.RelPermalink }}" defer></script>
+{{ end }}
