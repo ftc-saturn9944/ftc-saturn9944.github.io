@@ -8,12 +8,6 @@ cover:
   hidden: false
 ---
 
-{{< notice info Rebuilding >}}
-**Rebuilding**
-
-The old website died and we are in the process of rebuilding
-{{< /notice >}}
-
 SATURN Robotics is a **FIRST Tech Challenge** robotics club operating out of
 Mandarin High School in Jacksonville, Florida.  Started in 2016, our team has
 helped local high-school students engage in STEM by designing, building, and
