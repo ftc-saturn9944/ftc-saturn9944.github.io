@@ -8,3 +8,5 @@ ToC: false
 {{< image-gallery gallery_dir="images/2024" >}}
 
 ## 2023 Centerstage
+
+{{< image-gallery gallery_dir="images/2023" >}}
